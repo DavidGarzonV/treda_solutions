@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,700;1,300&display=swap');
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #F2F2F2 !important;
+    height: 100vh;
+}
+
+.navbar-dark .navbar-brand {
+    padding-right: 12px;
+}
+
+section.page > .container{
+    margin-top: 15px;
+}
+
+.indexpage .card {
+    min-height: 195px;
+}
+
+.indexpage .card-text {
+    min-height: 48px;
+}
+
+.card-icon {
+    text-align: center;
+    padding: 18px;
+    padding-bottom: 0;
+}
+
+.card-icon i {
+    font-size: 35px;
+}
