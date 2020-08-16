@@ -14,6 +14,7 @@ Para la instalación del proyecto es necesario ejecutar los siguientes comandos 
 - composer update
 - php artisan db:create
 - php artisan migrate --path=database/migrations/Store
+- php artisan storage:link
 
 ## Ejecución del proyecto
 

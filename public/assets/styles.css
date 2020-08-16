@@ -10,11 +10,12 @@ body {
     padding-right: 12px;
 }
 
-section.page > .container{
+section.page>.container {
     margin-top: 15px;
 }
 
 .indexpage .card {
+    text-align: center;
     min-height: 195px;
 }
 
@@ -30,4 +31,72 @@ section.page > .container{
 
 .card-icon i {
     font-size: 35px;
+}
+
+.content-page {
+    background: #ffff;
+    border: 1px solid #ddd;
+    padding: 15px;
+    border-radius: 15px;
+}
+
+.mt-10 {
+    margin-top: 10px;
+}
+
+table i {
+    font-size: 20px;
+}
+
+.loading {
+    position: relative;
+    cursor: default;
+    user-select: none;
+    pointer-events: none;
+}
+
+.loading:after,
+.loading:before {
+    position: absolute;
+    display: block;
+    content: ''
+}
+
+.loading:before {
+    z-index: 7;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background: rgba(255, 255, 255, .8);
+}
+
+.loading:after {
+    z-index: 8;
+    top: 50%;
+    left: 50%;
+    margin-top: -5%;
+    margin-left: -3%;
+    content: " ";
+    display: block;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: 5px solid #00446b;
+    border-color: #00446b transparent #00446b transparent;
+    animation: lds-dual-ring 1.2s linear infinite;
+}
+
+@keyframes lds-dual-ring {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+.vam {
+    vertical-align: middle;
 }

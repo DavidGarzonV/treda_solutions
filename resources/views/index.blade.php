@@ -11,7 +11,7 @@
                 <div class="card-body">
                     <h5 class="card-title">Registra aqu&iacute; tus tiendas</h5>
                     <p class="card-text">Gestiona la informaci&oacute;n de las tiendas y de los productos de cada una de ellas.</p>
-                    <a href="#" class="btn btn-primary">Ir a la gesti&oacute;n</a>
+                    <a href="{{url('/store')}}" class="btn btn-primary">Ir a la gesti&oacute;n</a>
                 </div>
             </div>
         </div>
@@ -23,7 +23,7 @@
                 <div class="card-body">
                     <h5 class="card-title">Desarrollo de la prueba t&eacute;cnica</h5>
                     <p class="card-text">Conoce el desarrollo de mi prueba t&eacute;cnica para PHP.</p>
-                    <a href="#" class="btn btn-primary">Ir a la prueba</a>
+                    <a href="{{url('/test')}}" class="btn btn-primary">Ir a la prueba</a>
                 </div>
             </div>
         </div>
