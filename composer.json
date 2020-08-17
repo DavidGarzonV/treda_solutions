@@ -6,6 +6,13 @@
         "framework",
         "laravel"
     ],
+    "authors": [
+        {
+            "name": "David Garzon",
+            "email": "dgv241198@gmail.com",
+            "role": "Developer"
+        }
+    ],
     "license": "MIT",
     "require": {
         "php": "^7.2.5",
