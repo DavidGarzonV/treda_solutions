@@ -24,6 +24,8 @@
             }
         });
     </script>
+    @yield("plugins-css")
+    @yield("plugins-js")
 </head>
 
 <body>
@@ -33,7 +35,6 @@
             @yield('content')
         </div>
     </section>
-    @include('includes.footer')
 </body>
 
 </html>

@@ -114,6 +114,10 @@ class ProductController extends Controller
         return view('product.edit', compact("idTienda", "producto"));
     }
 
+    /**
+     * Actualiza la informacion de un producto
+     * @return object
+     **/
     public function edit(Request $request)
     {
         $datos = $request->all();

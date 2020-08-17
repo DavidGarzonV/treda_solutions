@@ -15,6 +15,18 @@
                     <a class="nav-link" href="{{url('/test')}}">Prueba t&eacute;cnica</a>
                 </li>
             </ul>
+            @if (Auth::check())      
+            <div class="my-2 my-lg-0">
+                <div class="dropdown">
+                    <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        {{Auth::user()->name}}
+                    </button>
+                    <div class="dropdown-menu dropdown-menu-right" aria-labelledby="dropdownMenuButton">
+                      <a class="dropdown-item" href="{{url('auth/logout')}}">Cerrar sesi&oacute;n</a>
+                    </div>
+                </div>
+            </div>
+            @endif
         </div>
     </nav>
 </header>

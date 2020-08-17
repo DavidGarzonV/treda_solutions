@@ -28,5 +28,15 @@ class Product extends Model
         'imagen'
     ];
 
+    
+    /**
+     * The attributes that are hidden for consult
+     *
+     * @var array
+     */
+    protected $hidden = [
+        "created_at", "updated_at"
+    ];
+
     protected $primary = "id";
 }
